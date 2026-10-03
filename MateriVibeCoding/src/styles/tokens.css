@@ -1,0 +1,58 @@
+/* ===================================================================
+   THEME TOKENS — Dark Technical (High Contrast for Projector)
+   Designed for CS Lecture on Vibe Coding
+   =================================================================== */
+:root {
+  /* Surfaces */
+  --bg: #080b12;
+  --bg-grad-1: rgba(0, 240, 255, 0.12);
+  --bg-grad-2: rgba(79, 70, 229, 0.09);
+  --surface: rgba(255, 255, 255, 0.045);
+  --surface-2: rgba(255, 255, 255, 0.075);
+
+  /* Ink - High Contrast for Lecture Halls */
+  --fg: #f8fafc;
+  --fg-muted: #94a3b8;
+  --fg-faint: #64748b;
+
+  /* Hairlines */
+  --hair: rgba(255, 255, 255, 0.12);
+  --hair-2: rgba(255, 255, 255, 0.06);
+
+  /* Accent — Electric Cyan representing Human Judgment */
+  --primary: #00f0ff;
+  --accent: linear-gradient(
+    115deg,
+    #00f0ff 0%,
+    #00e5a3 50%,
+    #3b82f6 100%
+  );
+  --accent-ink: #031317;
+
+  /* Radius */
+  --radius: 18px;
+  --radius-sm: 10px;
+  --radius-lg: 24px;
+
+  /* Depth */
+  --shadow: 0 40px 100px -40px rgba(0, 0, 0, 0.95);
+  --glow: 0 20px 70px -30px rgba(0, 240, 255, 0.45);
+
+  /* Type */
+  --font-head: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', ui-monospace, monospace;
+
+  /* Motion */
+  --dur: 0.35s;
+  --ease: cubic-bezier(0.32, 0.72, 0, 1);
+  --ease-spring: cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Atmosphere */
+  --grain: 0.03;
+  --vignette: rgba(0, 0, 0, 0.3);
+
+  /* Responsive gutter */
+  --gutter: clamp(24px, 5vw, 100px);
+  --gutter-y: clamp(32px, 7vh, 88px);
+}
